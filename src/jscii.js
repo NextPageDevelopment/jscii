@@ -16,7 +16,7 @@
 	 * add more characters and they will be accounted for automatically
 	 * note: the extra &nbsp; is to account for the value range inclusive of 100%
 	 */
-	var chars = ['@','#','$','=','*','!',';',':','~','-',',','.','&nbsp;', '&nbsp;'];
+	var chars = ['1','0'];
 	var charLen = chars.length-1;
 	function getChar(val) { return chars[parseInt(val*charLen, 10)]; }
 
